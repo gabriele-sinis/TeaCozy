@@ -59,7 +59,7 @@ ul{
 .our-mission{
     height: 700px;
     width: 1200px;
-    background-image: url("/source/img/img-mission-background.webp");
+    background-image: url("/img/img-mission-background.webp");
 }
 
 #mission-header, #mission-decription{
@@ -130,7 +130,7 @@ h4.header-tea{
 
 .locations-container{
     display: flex;
-    background-image: url('/source/img/img-locations-background.webp');
+    background-image: url('/img/img-locations-background.webp');
     background-repeat: no-repeat;
     background-position: center;
     flex-wrap: wrap;
