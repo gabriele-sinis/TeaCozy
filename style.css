@@ -1,0 +1,183 @@
+*{
+    font-family: "Helvetica";
+    color: seashell;
+    background-color: black;
+    /* opacity: 0.9; */
+}
+
+body{
+    width: 1448px;
+}
+
+/* HEADER */
+.header{
+    display: inline-block;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    opacity: 1;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    left: 0px;
+}
+
+#logo{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-container .nav-container li{
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.nav-container li a{
+    text-decoration: underline;
+}
+
+
+/* OUR MISSION SECTION */
+
+.mission-container{
+    display: flex;
+    justify-content: center;
+}
+
+.our-mission{
+    height: 700px;
+    width: 1200px;
+    background-image: url("/source/img/img-mission-background.webp");
+}
+
+#mission-header, #mission-decription{
+    width: 1200px;
+    position: relative;
+    margin: 0;
+    left: 0%;
+    top: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* TEA OF THE MONTH SECTION */
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+.second-row{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-container{
+    max-width: 1000px;
+}
+
+.img-container img{
+    height: 200px;
+    width: 300px;
+}
+
+.tea-container{
+    text-align: center;
+    width: 1000px;
+}
+
+h4.header-tea{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* LOCATIONS SECTION */
+
+.header-location{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+    margin: 0;
+
+}
+
+.locations-container{
+    display: flex;
+    background-image: url('/source/img/img-locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.locations{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.child{
+    display: inline;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+}
+
+ .downtown.child{
+    margin-left: 110px;
+}
+
+.oakdale.child{
+    margin-right: 110px;
+}
+
+/* THE TEA COZY SECTION */
+
+.cozy-container{
+    display: grid;
+    text-align: center;
+    height: 200px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
